@@ -14,6 +14,7 @@
 		73063C191EEB32B000618F40 /* Finger_Paint_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 73063C171EEB32B000618F40 /* Finger_Paint_App.xcdatamodeld */; };
 		73063C1B1EEB32B000618F40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73063C1A1EEB32B000618F40 /* Assets.xcassets */; };
 		73063C1E1EEB32B000618F40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73063C1C1EEB32B000618F40 /* LaunchScreen.storyboard */; };
+		73063C271EEB341E00618F40 /* DrawUserInput.m in Sources */ = {isa = PBXBuildFile; fileRef = 73063C261EEB341E00618F40 /* DrawUserInput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		73063C1A1EEB32B000618F40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73063C1D1EEB32B000618F40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73063C1F1EEB32B000618F40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73063C251EEB341E00618F40 /* DrawUserInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawUserInput.h; sourceTree = "<group>"; };
+		73063C261EEB341E00618F40 /* DrawUserInput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawUserInput.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,8 @@
 				73063C111EEB32B000618F40 /* ViewController.h */,
 				73063C121EEB32B000618F40 /* ViewController.m */,
 				73063C141EEB32B000618F40 /* Main.storyboard */,
+				73063C251EEB341E00618F40 /* DrawUserInput.h */,
+				73063C261EEB341E00618F40 /* DrawUserInput.m */,
 				73063C1A1EEB32B000618F40 /* Assets.xcassets */,
 				73063C1C1EEB32B000618F40 /* LaunchScreen.storyboard */,
 				73063C1F1EEB32B000618F40 /* Info.plist */,
@@ -158,6 +163,7 @@
 				73063C101EEB32B000618F40 /* AppDelegate.m in Sources */,
 				73063C0D1EEB32B000618F40 /* main.m in Sources */,
 				73063C191EEB32B000618F40 /* Finger_Paint_App.xcdatamodeld in Sources */,
+				73063C271EEB341E00618F40 /* DrawUserInput.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
